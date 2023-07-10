@@ -17,3 +17,30 @@ Vous construirez ces incroyables applications Android
 
 - Une application de dessin
 
+## Début Android Studio
+
+Package name: 3 mots clefs séparés par un point.
+Est unique notamment pour la publication.
+
+Minimun SDK: Software Development Kit.
+Collection d'outils de développement logiciel, facilite le la création d'applivations en ayant un déboggueur, compilateur et cadre logiciel.
+Attention aux dernières versions car tous les téléphones ne l'ont pas installées.
+
+Fichier MainActivity => fichier principal. Point de départ de l'application.
+Fichier activity_main.xml => fichier qui s'occupe de l'interface user. L'on peut, par exemple, modifier l'apparence.
+C'est le fichier d'interface du main activity.
+
+## Configuration de l'émulateur
+
+Configuration application = **Android Virtual Device**, émulateur Android sur notre pc.
+Permet de tester nos applications directement sur le PC sans connecter le téléphone.
+
+AVD Manager dans activity_main.xml, dans tools ou coin supérieur droit.
+
+## Hello World
+
+Voir les bibliothèques importées: ctrl nom.
+Déclared attribute: text => anneso
+text appearance
+text size => ESP pixels independants de l'échelle, plus ou moins le même aspect suivant l'appareil. SP essaie de rendre indépendant de la taille de l'écran ou de la quantité de pixels dans l'écran.
+
