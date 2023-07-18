@@ -50,4 +50,18 @@ text size => ESP pixels independants de l'échelle, plus ou moins le même aspec
 Intéraction avec l'application via le code.
 
 Ajout bouton: erreur, disposition de contrainte. Il a besoin de contraintes, doit savoir où les éléments sont affichés (positionné coin supérieur gauche si pas de contraintes).
-baguette magique ajoute contraintes 
+baguette magique ajoute contraintes.
+
+declared attiribut changer texte button
+
+Il existe un id pour tout élément donné que l'on a dans l'nterface user.
+L'on peut configurer un id, il permettra d'accèder à l'élément d'interface user de la structure actuelle.
+
+Renommé myButton => MainActivity pour accèder au bouton.
+
+
+## Sources
+
+[Udemy](https://www.udemy.com/course/android-kotlin-developer/learn/lecture/17998371#reviews)
+
+

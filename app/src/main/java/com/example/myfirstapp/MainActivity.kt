@@ -3,6 +3,8 @@ package com.example.myfirstapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+// permet d'utiliser la class Button
 
 class MainActivity : AppCompatActivity() {
     /*"conteneur du code, et permet de l'exécuter. :AppCompatActivity => hérite */
@@ -11,5 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         /*relie le fichier activity_main interface. res/layout. Vue de contenu. r.layout(=mise en page) => chemin. = définissez la vue pour notre activité principale*/
+
+        var btnClickMe = findViewById<Button>(R.id.myButton)
+        btnClickMe.text = "Haha"
     }
 }
